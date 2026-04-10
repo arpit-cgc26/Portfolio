@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-progress">
+            <div class="scroll-progress-bar"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Arpit Kumar</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Full Stack Developer & UI/UX Designer</h2>
+                    <p class="hero-description">
+                        I create beautiful, functional, and user-centered digital experiences.
+                        Passionate about clean code, innovative design, and solving complex problems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image">
+                        <img src="arpit kumar.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate Developer & Designer</h3>
+                    <p>
+                        With over 2 years of experience in web development and design, I specialize in creating
+                        digital solutions that not only look great but also provide exceptional user experiences.
+                        My journey began with a curiosity for technology and has evolved into a passion for crafting
+                        innovative solutions.
+                    </p>
+                    <p>
+                        I believe in the power of collaboration, continuous learning, and staying ahead of industry
+                        trends. When I'm not coding, you can find me exploring new design trends, contributing to
+                        open-source projects, or mentoring aspiring developers.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>2+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="card-content">
+                            <i class="fas fa-code"></i>
+                            <h4>Clean Code</h4>
+                            <p>Writing maintainable, scalable, and efficient code</p>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-content">
+                            <i class="fas fa-palette"></i>
+                            <h4>Creative Design</h4>
+                            <p>Designing intuitive and beautiful user interfaces</p>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-content">
+                            <i class="fas fa-rocket"></i>
+                            <h4>Performance</h4>
+                            <p>Optimizing applications for speed and efficiency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    
+                    <div class="skills-list">
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    
+                    <div class="skills-list">
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">DBMS</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                   <div class="progress-fill" data-percentage="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    
+                    <div class="skills-list">
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-info">
+                               
+                            
+                        
+                            <div class="skill-info">
+                                <span class="skill-name">UI/UX Design</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-percentage="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-description="A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard." data-category="Full Stack" data-duration="4 months" data-client="TechCorp Inc." data-technologies="React,Node.js,MongoDB,Stripe" data-live-link="#" data-github-link="#">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="E-commerce Platform" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-overlay-text">Full Stack</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <span class="project-status completed">Completed</span>
+                        </div>
+                        <p class="project-description">A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="project-btn primary" data-action="details">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                            <a href="#" class="project-btn secondary" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-description="A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features." data-category="Real-time App" data-duration="3 months" data-client="StartupXYZ" data-technologies="Vue.js,Firebase,Socket.io,Express" data-live-link="#" data-github-link="#">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Task Management App" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-overlay-text">Real-time App</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Task Management App</h3>
+                            <span class="project-status completed">Completed</span>
+                        </div>
+                        <p class="project-description">A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Socket.io</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="project-btn primary" data-action="details">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                            <a href="#" class="project-btn secondary" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-description="An interactive weather dashboard with location-based forecasts, weather maps, and historical data visualization." data-category="Data Visualization" data-duration="2 months" data-client="Personal Project" data-technologies="React,D3.js,OpenWeather API,Chart.js" data-live-link="#" data-github-link="#">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Weather Dashboard" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-overlay-text">Data Visualization</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <span class="project-status completed">Completed</span>
+                        </div>
+                        <p class="project-description">An interactive weather dashboard with location-based forecasts, weather maps, and historical data visualization.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>OpenWeather API</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="project-btn primary" data-action="details">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                            <a href="#" class="project-btn secondary" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-description="A responsive portfolio website showcasing projects, skills, and experience with modern design principles and smooth animations." data-category="Frontend" data-duration="1 month" data-client="Personal Project" data-technologies="HTML5,CSS3,JavaScript,GSAP" data-live-link="#" data-github-link="#">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop" alt="Portfolio Website" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-overlay-text">Frontend</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <span class="project-status in-progress">In Progress</span>
+                        </div>
+                        <p class="project-description">A responsive portfolio website showcasing projects, skills, and experience with modern design principles and smooth animations.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>GSAP</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="project-btn primary" data-action="details">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                            <a href="#" class="project-btn secondary" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Modal -->
+            <div id="projectModal" class="project-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 id="modalTitle">Project Details</h3>
+                        <button class="modal-close" id="modalClose">&times;</button>
+                    </div>
+                    <div class="modal-body" id="modalBody">
+                        <!-- Project details will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <div class="container">
+            <div class="resume-content">
+                <div class="resume-text">
+                    <h2>Ready to Work Together?</h2>
+                    <p>Download my resume to learn more about my experience, skills, and background. I'm always open to discussing new opportunities and exciting projects.</p>
+                    <div class="resume-stats">
+                        <div class="resume-stat">
+                            <h3>1+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="resume-stat">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="resume-stat">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-download">
+                    <a href="2220867_Arpit.pdf" class="btn btn-primary btn-large" id="downloadResume" download="2220867_Arpit.pdf">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                    <p class="resume-format">PDF Format • 2.3 MB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>arpitshlok828@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 6201640577</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Mohali,Punjab, India   
+                            </p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/arpit-kumar-ab7930264" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/arpit-cgc26" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/drop_down.20/" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Portfolio</h3>
+                    <p>Creating digital experiences that matter.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <a href="#">Web Development</a>
+                        <a href="#">UI/UX Design</a>
+                        <a href="#">Mobile Apps</a>
+                        <a href="#">Consulting</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="https://www.linkedin.com/in/arpit-kumar-ab7930264" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://github.com/arpit-cgc26" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.instagram.com/drop_down.20/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arpit Kumar . All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
